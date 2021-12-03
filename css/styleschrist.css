@@ -1,0 +1,1106 @@
+/* MIR SE ERDHET EFFECT */
+.container-blur-christ {
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  background: #5A7E64;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center {
+margin-top: 10%;
+width: 100%;
+}
+
+.word-christ {
+  /* justify-content: center; */
+  max-width: 100%;
+  letter-spacing: 5px;
+  font-size: 5rem;
+  position: absolute;
+  color: #db7f50;
+  animation: word-christ 12s infinite ease-in-out;
+}
+.word-christ:nth-child(1){
+  animation-delay: -10s;
+}
+.word-christ:nth-child(2){
+  animation-delay: -7s;
+}
+.word-christ:nth-child(3){
+  animation-delay: -4s;
+}
+.word-christ:nth-child(4){
+  animation-delay: -1s;
+}
+@keyframes word-christ {
+  0%, 5%, 100%{
+    filter: blur(0px);
+  }
+  20%, 80% {
+    filter: blur(0px);
+    opacity:0;
+  }
+}
+
+.dreri {
+  height: 50%;
+  width: 50%;
+}
+
+/* INTRODUCTION EFFECTS */
+
+.img-1-container {
+  position:relative;
+}
+
+.row {
+  margin-top:10% !important;
+}
+.img-intro-2 {
+  margin-top:10px;
+  min-height:150px;
+  min-width: 150px;
+  max-height: 200px;
+  max-width: 200px;
+  position: absolute;
+  left: 43%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 0px;
+  /* border-top-style:; */
+  animation-name: img-intro-2;
+  animation-duration: 5s;
+
+}
+
+.img-intro-1{
+  margin-top:10px;
+  min-height:150px;
+  min-width: 150px;
+  max-height: 200px;
+  max-width: 200px;
+  position: absolute;
+  left: 43%;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 0px;
+  animation-name: img-intro-1;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes img-intro-1 {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+/* BUTTONS */
+.btn-pers {
+  dispaly:flex;
+  justify-content: flex-end;
+}
+
+/* INTRODUCTION TEXT */
+
+.descr-2-chr {
+  font-family: 'Open Sans Condensed', cursive;
+  font-size: 25px;
+  /* padding-top: 100px;
+  padding-left: 70px; */
+  color: white;
+  /* margin-top:50%; */
+  position: relative;
+  text-align: center !important;
+}
+
+.row-intro {
+  margin-top:100px !important;
+  padding-top: 150px;
+  position: relative !important;
+}
+
+/* NAVIGATION */
+
+.nav-chr {
+  background: #41634A;
+}
+
+.btn-chr {
+  background: #db7f50 !important;
+  border: none !important;
+}
+
+.descr-chr {
+  font-family: 'Josefin Sans', cursive;
+  font-size: 36px;
+  color: white;
+}
+
+.bg-canvas-chr {
+  background-color: #5A7E64;
+}
+
+.descr-menu-chr {
+  font-family: 'Josefin Sans', cursive;
+  font-size: 22px;
+  color: white;
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
+}
+
+/* MODELS */
+.model-2 {
+  max-height: 60%;
+  max-width: 60%;
+  margin-left: 25%;
+  opacity: 0.6;
+}
+
+/* SNOWFLAKES */
+
+.flake {
+border-radius: 50% 50%;
+}
+
+.snowflake1 {
+  animation-name: snowflake1;
+  animation-duration:10s;
+  animation-delay: 0;
+  height: 15px;
+  width: 15px;
+  background: white;
+  position: absolute;
+  top:-2%;
+  left: 20%;
+  filter: blur(4px);
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowflake1 {
+  0% {
+  top: -2%;
+  opacity: 0.9;
+  margin-left:20%;
+  }
+  50% {
+  margin-left: 15%;
+  }
+  100% {
+    top: 90%;
+  opacity: 0;
+  margin-left:20%;
+  }
+}
+
+.snowflake2 {
+  animation-name: snowflake2;
+  animation-duration:11s;
+  animation-delay: 0;
+  height: 10px;
+  width: 10px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 12%;
+  filter: blur(5px);
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowflake2 {
+  0% {
+  top: -10%;
+  opacity: 0.9;
+  margin-left:12%;
+  }
+  50% {
+  margin-left: 17%;
+  }
+  100% {
+    top: 90%;
+  opacity: 0;
+  margin-left:20%;
+  }
+}
+
+.snowflake3 {
+  animation-name: snowflake3;
+  animation-duration:11.5s;
+  animation-delay: 0;
+  height: 5px;
+  width: 5px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 12%;
+  filter: blur(2px);
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowflake3 {
+  0% {
+  top: -10%;
+  opacity: 0.9;
+  margin-left:12%;
+  }
+  50% {
+  margin-left: 7%;
+  }
+  100% {
+    top: 90%;
+  opacity: 0;
+  margin-left:11%;
+  }
+}
+
+.snowflake4 {
+  animation-name: snowflake4;
+  animation-duration:12s;
+  animation-delay: 0.2s;
+  height: 13px;
+  width: 13px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 36%;
+  filter: blur(3px);
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowflake4 {
+  0% {
+  top: -10%;
+  opacity: 0.9;
+  margin-left:36%;
+  }
+  52% {
+  margin-left: 42%;
+  }
+  100% {
+    top: 90%;
+  opacity: 0;
+  margin-left:40%;
+  }
+}
+
+.snowflake5 {
+  animation-name: snowflake5;
+  animation-duration:12.5s;
+  animation-delay: 0s;
+  height: 17px;
+  width: 17px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 30%;
+  filter: blur(4px);
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowflake5 {
+  0% {
+  top: -10%;
+  opacity: 0.9;
+  margin-left:30%;
+  }
+  52% {
+  margin-left: 40%;
+  }
+  100% {
+    top: 90%;
+  opacity: 0;
+  margin-left:35%;
+  }
+}
+
+.snowflake6 {
+  animation-name: snowflake6;
+  animation-duration:13s;
+  animation-delay: 1s;
+  height: 16px;
+  width: 16px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 35%;
+  filter: blur(4px);
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowflake6 {
+  0% {
+  top: -10%;
+  opacity: 0.9;
+  margin-left:40%;
+  }
+  52% {
+  margin-left: 42%;
+  }
+  100% {
+    top: 90%;
+  opacity: 0;
+  margin-left:28%;
+  }
+}
+
+.snowflake6 {
+  animation-name: snowflake6;
+  animation-duration:13.5;
+  animation-delay: 2s;
+  height: 18px;
+  width: 18px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 32%;
+  filter: blur(4px);
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowflake6 {
+  0% {
+  top: -10%;
+  opacity: 0.9;
+  margin-left:32%;
+  }
+  52% {
+  margin-left: 24%;
+  }
+  100% {
+    top: 90%;
+  opacity: 0;
+  margin-left:36%;
+  }
+}
+
+.snowflake7 {
+  animation-name: snowflake7;
+  animation-duration:14s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake7 {
+  0% {
+  top: -10%;
+  opacity: 0.9;
+  margin-left:25%;
+  }
+  52% {
+  margin-left: 29%;
+  }
+  100% {
+    top: 90%;
+  opacity: 0;
+  margin-left:30%;
+  }
+}
+
+/*.snowflake8 {
+  animation-name: snowflake8;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake8 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake9 {
+  animation-name: snowflake9;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake9 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake10 {
+  animation-name: snowflake10;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake10 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake11 {
+  animation-name: snowflake11;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake11 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake12 {
+  animation-name: snowflake12;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake12 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake13 {
+  animation-name: snowflake13;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake13 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake14 {
+  animation-name: snowflake14;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake14 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake15 {
+  animation-name: snowflake15;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake15 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake16 {
+  animation-name: snowflake16;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake16 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake17 {
+  animation-name: snowflake17;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake17 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake18 {
+  animation-name: snowflake18;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake18 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake19 {
+  animation-name: snowflake19;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake19 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+
+.snowflake20 {
+  animation-name: snowflake20;
+  animation-duration:15s;
+  animation-delay: 2s;
+  height: 20px;
+  width: 20px;
+  background: white;
+  position: absolute;
+  top:-10%;
+  left: 25%;
+  filter: blur(5px);
+}
+
+@keyframes snowflake20 {
+  0% {
+  top: -12%;
+  opacity: 0.9;
+  margin-left:18%;
+  }
+  12%{
+    margin-left: 16%;
+  }
+  22% {
+    margin-left: 21%;
+  }
+  32% {
+    margin-left: 16%;
+  }
+  42% {
+    margin-left: 21%;
+  }
+  52% {
+  margin-left: 16%;
+  }
+  62% {
+    margin-left:21%;
+  }
+  72% {
+    margin-left:16%;
+  }
+  82% {
+    margin-left: 21%;
+  }
+  92% {
+    margin-left: 16%
+  }
+  100% {
+    top: 100%;
+  opacity: 0;
+  margin-left:18%;
+  }
+}
+*/
