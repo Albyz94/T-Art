@@ -75,9 +75,9 @@ ul {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 } */
-.btn-pers {
+/* .btn-pers {
   margin-top: 38px;
-}
+} */
 .container-blur {
   position: relative;
   height: 30vh;
@@ -228,12 +228,12 @@ animation-duration: 5s;
 } */
 
 .img-col {
-  transition: all .5s ease-out;
+  transition: all .3s ease-out;
 }
 
 .img-col:hover {
   /* opacity:0.5; */
-  transform: scale(130%) translateY(-20%);
+  transform: scale(170%) translateY(-20%);
   transition: all .5s ease-in-out;
   cursor: pointer;
 }
